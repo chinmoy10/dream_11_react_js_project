@@ -1,0 +1,7 @@
+.hero-overlay{
+    grid-column-start: 1;
+    grid-row-start: 1;
+    height: 100%;
+    width: 100%;
+    background-color: color-mix(in oklab, var(--color-neutral) 95%, transparent);
+}
