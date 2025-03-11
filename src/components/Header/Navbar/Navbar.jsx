@@ -6,7 +6,7 @@ import dollar from "../../../assets/images/dollar_1.png";
 const Navbar = () => {
   return (
     <header >
-      <nav className="sticky bottom-0 bg-[#fffffffa] shadow-md">
+      <nav>
         <div className="navbar bg-base-100 w-10/12 mx-auto py-3">
           <div className="navbar-start">
             <div className="dropdown">
