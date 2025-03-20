@@ -4,16 +4,16 @@ import { BsFlagFill } from "react-icons/bs";
 
 const SinglePlayer = ({player}) => {
 
-    const {id, player_image, player_name, country_region, player_types, player_batsman, player_bowler, batting_hand, bowling_hand, player_price} = player
+    const {id, player_image, player_name, country_region, player_types, batting_hand, bowling_hand, player_price} = player
 
     return (
         <div>
-            <div className="card bg-base-100 shadow-xl">
-                <figure className="px-10 pt-10">
+            <div className="card bg-base-100 border-2 rounded-2xl shadow-md">
+                <figure className="px-6 pt-6">
                     <img
                     src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
                     alt="Shoes"
-                    className="rounded-xl" />
+                    className="rounded-2xl" />
                 </figure>
                 <div className="card-body">
                     <h2 className="card-title"><FaUser />{player_name}</h2>
@@ -22,15 +22,16 @@ const SinglePlayer = ({player}) => {
                         <div className='border px-3 py-2 bg-gray-50 rounded-xl text-lg'>{player_types[0]}</div>
                     </div>
                     <div className="divider"></div>
-                    <div>
-                        <h1>Rating</h1>
+                    <div className='space-y-3'>
+                        <h1 className='text-lg font-bold'>Rating</h1>
                         <div className='flex justify-between text-xl font-medium'>
                             <h4>{batting_hand}</h4>
                             <h4>{bowling_hand}</h4>
                         </div>
                     </div>
-                    <div className="card-actions">
-                    <button className="btn btn-primary">Buy Now</button>
+                    <div className="card-actions items-center">
+                    <p className='text-lg font-medium'>Price: ${player_price}</p>
+                    <button className="btn bg-gray-50 font-medium rounded-xl">Choose Player</button>
                     </div>
                 </div>
             </div>

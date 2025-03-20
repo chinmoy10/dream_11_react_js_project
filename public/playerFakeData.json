@@ -5,11 +5,9 @@
     "player_name": "Virat Kohli",
     "country_region": "India",
     "player_types": ["Batsman"],
-    "player_batsman": true,
-    "player_bowler": false,
     "batting_hand": "Right-hand-bat",
     "bowling_hand": "Right-arm-bowl",
-    "player_price": "$700000"
+    "player_price": "700000"
   },
   {
     "id": 2,
@@ -17,11 +15,9 @@
     "player_name": "Babar Azam",
     "country_region": "Pakistan",
     "player_types": ["Batsman"],
-    "player_batsman": true,
-    "player_bowler": false,
     "batting_hand": "Right-hand-bat",
     "bowling_hand": "Right-arm-bowl",
-    "player_price": "$650000"
+    "player_price": "650000"
   },
   {
     "id": 3,
@@ -29,11 +25,9 @@
     "player_name": "Kane Williamson",
     "country_region": "New Zealand",
     "player_types": ["Batsman"],
-    "player_batsman": true,
-    "player_bowler": false,
     "batting_hand": "Right-hand-bat",
     "bowling_hand": "Right-arm-bowl",
-    "player_price": "$620000"
+    "player_price": "620000"
   },
   {
     "id": 4,
@@ -41,11 +35,9 @@
     "player_name": "Steve Smith",
     "country_region": "Australia",
     "player_types": ["Batsman"],
-    "player_batsman": true,
-    "player_bowler": false,
     "batting_hand": "Right-hand-bat",
     "bowling_hand": "Right-arm-bowl",
-    "player_price": "$600000"
+    "player_price": "600000"
   },
   {
     "id": 5,
@@ -53,11 +45,9 @@
     "player_name": "Jos Buttler",
     "country_region": "England",
     "player_types": ["Wicketkeeper-Batsman"],
-    "player_batsman": true,
-    "player_bowler": false,
     "batting_hand": "Right-hand-bat",
     "bowling_hand": "N/A",
-    "player_price": "$640000"
+    "player_price": "640000"
   },
   {
     "id": 6,
@@ -65,11 +55,9 @@
     "player_name": "Shakib Al Hasan",
     "country_region": "Bangladesh",
     "player_types": ["All-Rounder"],
-    "player_batsman": true,
-    "player_bowler": true,
     "batting_hand": "Left-hand-bat",
     "bowling_hand": "Left-arm-bowl",
-    "player_price": "$680000"
+    "player_price": "680000"
   },
   {
     "id": 7,
@@ -77,11 +65,9 @@
     "player_name": "Ben Stokes",
     "country_region": "England",
     "player_types": ["All-Rounder"],
-    "player_batsman": true,
-    "player_bowler": true,
     "batting_hand": "Left-hand-bat",
     "bowling_hand": "Right-arm-bowl",
-    "player_price": "$710000"
+    "player_price": "710000"
   },
   {
     "id": 8,
@@ -89,11 +75,9 @@
     "player_name": "Rashid Khan",
     "country_region": "Afghanistan",
     "player_types": ["Bowler"],
-    "player_batsman": false,
-    "player_bowler": true,
     "batting_hand": "Right-hand-bat",
     "bowling_hand": "Right-arm-bowl",
-    "player_price": "$500000"
+    "player_price": "500000"
   },
   {
     "id": 9,
@@ -101,11 +85,9 @@
     "player_name": "Jasprit Bumrah",
     "country_region": "India",
     "player_types": ["Bowler"],
-    "player_batsman": false,
-    "player_bowler": true,
     "batting_hand": "Right-hand-bat",
     "bowling_hand": "Right-arm-bowl",
-    "player_price": "$540000"
+    "player_price": "540000"
   },
   {
     "id": 10,
@@ -113,11 +95,9 @@
     "player_name": "Pat Cummins",
     "country_region": "Australia",
     "player_types": ["Bowler"],
-    "player_batsman": false,
-    "player_bowler": true,
     "batting_hand": "Right-hand-bat",
     "bowling_hand": "Right-arm-bowl",
-    "player_price": "$560000"
+    "player_price": "560000"
   },
   {
     "id": 11,
@@ -125,11 +105,9 @@
     "player_name": "Trent Boult",
     "country_region": "New Zealand",
     "player_types": ["Bowler"],
-    "player_batsman": false,
-    "player_bowler": true,
     "batting_hand": "Right-hand-bat",
     "bowling_hand": "Left-arm-bowl",
-    "player_price": "$520000"
+    "player_price": "520000"
   },
   {
     "id": 12,
@@ -137,10 +115,8 @@
     "player_name": "Quinton de Kock",
     "country_region": "South Africa",
     "player_types": ["Wicketkeeper-Batsman"],
-    "player_batsman": true,
-    "player_bowler": false,
     "batting_hand": "Left-hand-bat",
     "bowling_hand": "N/A",
-    "player_price": "$630000"
+    "player_price": "630000"
   }
 ]
