@@ -26,7 +26,7 @@ const Newsletter = () => {
             </div>
             
             <div className='bg-neutral relative'>
-                <footer className='flex flex-col items-center pt-60 mt-96'>
+                <footer className='flex flex-col items-center pt-60 mt-72'>
                     <img src={logo} alt="" />
                     <div className='flex flex-col md:flex-row justify-between items-start text-neutral-content py-20 w-10/12 mx-auto'>
                         <nav className='flex flex-col space-y-3'>
