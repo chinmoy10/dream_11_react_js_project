@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "player_image": "https://example.com/virat_kohli.jpg",
+    "player_image": "https://i.ibb.co.com/wFtBMbFn/1.jpg",
     "player_name": "Virat Kohli",
     "country_region": "India",
     "player_types": ["Batsman"],
@@ -11,7 +11,7 @@
   },
   {
     "id": 2,
-    "player_image": "https://example.com/babar_azam.jpg",
+    "player_image": "https://i.ibb.co.com/G4n0MBSd/2.jpg",
     "player_name": "Babar Azam",
     "country_region": "Pakistan",
     "player_types": ["Batsman"],
@@ -21,7 +21,7 @@
   },
   {
     "id": 3,
-    "player_image": "https://example.com/kane_williamson.jpg",
+    "player_image": "https://i.ibb.co.com/60MrWbBP/3.jpg",
     "player_name": "Kane Williamson",
     "country_region": "New Zealand",
     "player_types": ["Batsman"],
@@ -31,7 +31,7 @@
   },
   {
     "id": 4,
-    "player_image": "https://example.com/steve_smith.jpg",
+    "player_image": "https://i.ibb.co.com/1Y8MnzmB/4.jpg",
     "player_name": "Steve Smith",
     "country_region": "Australia",
     "player_types": ["Batsman"],
@@ -41,7 +41,7 @@
   },
   {
     "id": 5,
-    "player_image": "https://example.com/jos_buttler.jpg",
+    "player_image": "https://i.ibb.co.com/9Fv2q1L/5.jpg",
     "player_name": "Jos Buttler",
     "country_region": "England",
     "player_types": ["Wicketkeeper-Batsman"],
@@ -51,7 +51,7 @@
   },
   {
     "id": 6,
-    "player_image": "https://example.com/shakib_al_hasan.jpg",
+    "player_image": "https://i.ibb.co.com/cSBgR7Pd/6.jpg",
     "player_name": "Shakib Al Hasan",
     "country_region": "Bangladesh",
     "player_types": ["All-Rounder"],
@@ -61,7 +61,7 @@
   },
   {
     "id": 7,
-    "player_image": "https://example.com/ben_stokes.jpg",
+    "player_image": "https://i.ibb.co.com/Jw1kzzkR/7.jpg",
     "player_name": "Ben Stokes",
     "country_region": "England",
     "player_types": ["All-Rounder"],
@@ -71,7 +71,7 @@
   },
   {
     "id": 8,
-    "player_image": "https://example.com/rashid_khan.jpg",
+    "player_image": "https://i.ibb.co.com/ns3wc3WM/8.jpg",
     "player_name": "Rashid Khan",
     "country_region": "Afghanistan",
     "player_types": ["Bowler"],
@@ -81,7 +81,7 @@
   },
   {
     "id": 9,
-    "player_image": "https://example.com/jasprit_bumrah.jpg",
+    "player_image": "https://i.ibb.co.com/V7n6gGv/9.jpg",
     "player_name": "Jasprit Bumrah",
     "country_region": "India",
     "player_types": ["Bowler"],
@@ -91,7 +91,7 @@
   },
   {
     "id": 10,
-    "player_image": "https://example.com/pat_cummins.jpg",
+    "player_image": "https://i.ibb.co.com/KcX70mJd/10.jpg",
     "player_name": "Pat Cummins",
     "country_region": "Australia",
     "player_types": ["Bowler"],
@@ -101,7 +101,7 @@
   },
   {
     "id": 11,
-    "player_image": "https://example.com/trent_boult.jpg",
+    "player_image": "https://i.ibb.co.com/TBKnsyjJ/11.jpg",
     "player_name": "Trent Boult",
     "country_region": "New Zealand",
     "player_types": ["Bowler"],
@@ -111,7 +111,7 @@
   },
   {
     "id": 12,
-    "player_image": "https://example.com/quinton_de_kock.jpg",
+    "player_image": "https://i.ibb.co.com/BH9B2pKb/12.jpg",
     "player_name": "Quinton de Kock",
     "country_region": "South Africa",
     "player_types": ["Wicketkeeper-Batsman"],

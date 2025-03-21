@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import SinglePlayer from '../SinglePlayer/SinglePlayer';
 
-const AllPlayers = () => {
+const AllPlayers = ({handleChoosePlayer}) => {
 
     const[players, setPlayers] = useState([]);
 
@@ -21,7 +21,7 @@ const AllPlayers = () => {
             <div className='w-10/12 mx-auto py-8'>
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
                     {
-                        players.map((player)=><SinglePlayer key={player.id} player={player}></SinglePlayer>)
+                        players.map((player)=><SinglePlayer key={player.id} player={player} handleChoosePlayer={handleChoosePlayer}></SinglePlayer>)
                     }
                 </div>
             </div>

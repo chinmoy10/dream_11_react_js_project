@@ -3,7 +3,7 @@ import "./Navbar.css";
 import profile from "../../../assets/images/logo.png";
 import dollar from "../../../assets/images/dollar_1.png";
 
-const Navbar = () => {
+const Navbar = ({totalMoney}) => {
   return (
     <header >
       <nav>
@@ -34,7 +34,7 @@ const Navbar = () => {
                     <li><a>Schedules</a></li>
                     <li>
                     <div className="btn space-x-1">
-                    <h1 className="font-bold">0 Coin</h1>
+                    <h1 className="font-bold">{totalMoney} Coin</h1>
                     <img className="w-6" src={dollar} alt="dollar" />
                 </div>
                     </li>
@@ -50,7 +50,7 @@ const Navbar = () => {
                     <li><a>Schedules</a></li>
                 </ul>
             <div className="btn space-x-1">
-                <h1 className="font-bold">0 Coin</h1>
+                <h1 className="font-bold">{totalMoney} Coin</h1>
                 <img className="w-6" src={dollar} alt="dollar" />
             </div>
           </div>
