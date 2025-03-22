@@ -26,12 +26,12 @@ const Newsletter = () => {
             </div>
             
             <div className='bg-neutral relative'>
-                <footer className='flex flex-col items-center pt-60 mt-72'>
+                <footer className='flex flex-col items-center pt-60 mt-72 border-b-2 border-gray-800'>
                     <img src={logo} alt="" />
                     <div className='flex flex-col md:flex-row justify-between items-start text-neutral-content py-20 w-10/12 mx-auto'>
                         <nav className='flex flex-col space-y-3'>
                             <h6 className="text-lg font-semibold">About Us</h6>
-                            <p className='text-md font-light text-gray-400'>We are a passionate team <br/>dedicated to providing the best <br/>services to our customers.</p>
+                            <p className='text-md font-light text-gray-400'>We are a passionate team dedicated to providing <br/>the best services to our customers.</p>
                         </nav>
                         <nav className='flex flex-col space-y-3'>
                             <h6 className="text-lg font-semibold">Company</h6>
@@ -57,6 +57,8 @@ const Newsletter = () => {
                         </form>
                     </div>
                 </footer>
+                <p className='font-normal text-[#ffffff60] text-center p-8'>&#64;2025 Your Company All Rights Reserved.</p>
+                
             </div>
         </div>
     );

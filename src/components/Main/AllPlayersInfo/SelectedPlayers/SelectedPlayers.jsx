@@ -21,7 +21,8 @@ const SelectedPlayers = ({selectPlayers, handleDelete, handleIsActiveBtn}) => {
                                     <p className='text-gray-500'>{player.player_types[0]}</p>
                                 </div>
                             </div>
-                            <div>
+                            <div className='flex space-x-4 items-center'>
+                                <p className='text-gray-600 font-semibold border p-2 rounded-lg'>${player.player_price}</p>
                                 <button onClick={()=>handleDelete(player.id)} className='btn bg-gray-50 border-none text-3xl text-red-500 shadow-md'><RiDeleteBinLine /></button>
                             </div>
                         </div>

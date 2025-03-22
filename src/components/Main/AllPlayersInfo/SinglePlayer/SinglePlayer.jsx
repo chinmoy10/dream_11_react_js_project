@@ -31,7 +31,7 @@ const SinglePlayer = ({player, handleChoosePlayer}) => {
                     </div>
                     <div className="card-actions items-center">
                     <p className='text-lg font-medium'>Price: ${player_price}</p>
-                    <button onClick={()=>handleChoosePlayer(player)} className="btn bg-gray-50 font-medium rounded-xl">Choose Player</button>
+                    <button onClick={()=>handleChoosePlayer(player)} className="btn bg-gray-50 font-medium rounded-xl hover:bg-[#E7FE29] text-[#131313]">Choose Player</button>
                     </div>
                 </div>
             </div>

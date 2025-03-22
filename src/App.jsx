@@ -66,7 +66,7 @@ function App() {
     // deleted Prayer
     const newPlayer = selectedPlayers.find((p)=>p.id==id);
     if(totalMoney<newPlayer.player_price){
-      alert("sorry")
+      alert("invalid number");
     }
     else{
       const deletedPrice = parseInt(newPlayer.player_price) + totalMoney;
