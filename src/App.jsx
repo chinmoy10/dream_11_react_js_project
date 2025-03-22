@@ -33,7 +33,7 @@ function App() {
   };
 
   const handleIncreaseMoney = (totalPrice) => {
-    if(totalMoney<=0){
+    if(totalMoney<=totalPrice){
       alert("please add credit")
     }else{
       const remainingMoney = totalMoney - parseInt(totalPrice);
@@ -62,6 +62,16 @@ function App() {
   const handleDelete = (id) => {
     const remainingPlayer = selectedPlayers.filter((p)=>p.id != id);
     setSelectedPlayers(remainingPlayer)
+
+    // deleted Prayer
+    const newPlayer = selectedPlayers.find((p)=>p.id==id);
+    if(totalMoney<newPlayer.player_price){
+      alert("sorry")
+    }
+    else{
+      const deletedPrice = parseInt(newPlayer.player_price) + totalMoney;
+      setTotalMoney(deletedPrice);
+    }
   }
 
   return (

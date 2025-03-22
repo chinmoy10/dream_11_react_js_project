@@ -21,10 +21,10 @@ const AllPlayersContainer = ({handleIsActiveBtn, isActive, handleChoosePlayer, s
                 </div>
             </div>
             {
-                isActive.player?<AllPlayers handleChoosePlayer={handleChoosePlayer}></AllPlayers>:<SelectedPlayers selectPlayers={selectPlayers} handleDelete={handleDelete}></SelectedPlayers>
+                isActive.player?<AllPlayers handleChoosePlayer={handleChoosePlayer}></AllPlayers>:<SelectedPlayers handleIsActiveBtn={handleIsActiveBtn} selectPlayers={selectPlayers} handleDelete={handleDelete}></SelectedPlayers>
             }
         </div>
     );
-};
+}; 
 
 export default AllPlayersContainer;

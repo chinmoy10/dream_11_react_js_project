@@ -4,7 +4,7 @@ import { BsFlagFill } from "react-icons/bs";
 
 const SinglePlayer = ({player, handleChoosePlayer}) => {
 
-    const {id, player_image, player_name, country_region, player_types, batting_hand, bowling_hand, player_price} = player
+    const {player_image, player_name, country_region, player_types, batting_hand, bowling_hand, player_price} = player;
 
     return (
         <div>
