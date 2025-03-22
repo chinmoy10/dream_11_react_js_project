@@ -32,6 +32,16 @@ function App() {
     setTotalMoney(newClaimCredit);
   };
 
+  const handleIncreaseMoney = (totalPrice) => {
+    if(totalMoney<=0){
+      alert("please add credit")
+    }else{
+      const remainingMoney = totalMoney - parseInt(totalPrice);
+      setTotalMoney(remainingMoney);
+    }
+    
+  }
+
   const [selectedPlayers, setSelectedPlayers] = useState([]);
 
   const handleChoosePlayer = (player) => {
@@ -39,13 +49,19 @@ function App() {
     if(isExist){
       alert('just one time added');
     }else{
-      const newSelectPlayer = [...selectedPlayers, player]
+      const newSelectPlayer = [...selectedPlayers, player];
       if(newSelectPlayer.length<=6){
         setSelectedPlayers(newSelectPlayer);
+        handleIncreaseMoney(player.player_price);
       }else{
         alert('Not selected any player this time')
       }
     }
+  }
+
+  const handleDelete = (id) => {
+    const remainingPlayer = selectedPlayers.filter((p)=>p.id != id);
+    setSelectedPlayers(remainingPlayer)
   }
 
   return (
@@ -60,6 +76,7 @@ function App() {
         handleChoosePlayer={handleChoosePlayer}
         selectedPlayers={selectedPlayers.length}
         selectPlayers = {selectedPlayers}
+        handleDelete = {handleDelete}
       ></AllPlayersContainer>
       <Newsletter></Newsletter>
     </>

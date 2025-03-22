@@ -1,7 +1,7 @@
 import React from 'react';
 import { RiDeleteBinLine } from "react-icons/ri";
 
-const SelectedPlayers = ({selectPlayers}) => {
+const SelectedPlayers = ({selectPlayers, handleDelete}) => {
     console.log(selectPlayers);
     return (
         <div>
@@ -22,7 +22,7 @@ const SelectedPlayers = ({selectPlayers}) => {
                                 </div>
                             </div>
                             <div>
-                                <button className='btn bg-gray-50 border-none text-3xl text-red-500 shadow-md'><RiDeleteBinLine /></button>
+                                <button onClick={()=>handleDelete(player.id)} className='btn bg-gray-50 border-none text-3xl text-red-500 shadow-md'><RiDeleteBinLine /></button>
                             </div>
                         </div>
                     </div>

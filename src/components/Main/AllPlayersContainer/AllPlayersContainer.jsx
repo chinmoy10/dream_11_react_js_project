@@ -3,7 +3,7 @@ import "./AllPlayersContainer.css"
 import AllPlayers from '../AllPlayersInfo/AllPlayers/AllPlayers';
 import SelectedPlayers from '../AllPlayersInfo/SelectedPlayers/SelectedPlayers';
 
-const AllPlayersContainer = ({handleIsActiveBtn, isActive, handleChoosePlayer, selectedPlayers, selectPlayers}) => {
+const AllPlayersContainer = ({handleIsActiveBtn, isActive, handleChoosePlayer, selectedPlayers, selectPlayers, handleDelete}) => {
     return (
         <div>
             <div className='w-10/12 mx-auto py-8'>
@@ -21,7 +21,7 @@ const AllPlayersContainer = ({handleIsActiveBtn, isActive, handleChoosePlayer, s
                 </div>
             </div>
             {
-                isActive.player?<AllPlayers handleChoosePlayer={handleChoosePlayer}></AllPlayers>:<SelectedPlayers selectPlayers={selectPlayers}></SelectedPlayers>
+                isActive.player?<AllPlayers handleChoosePlayer={handleChoosePlayer}></AllPlayers>:<SelectedPlayers selectPlayers={selectPlayers} handleDelete={handleDelete}></SelectedPlayers>
             }
         </div>
     );
