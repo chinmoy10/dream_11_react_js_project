@@ -28,7 +28,7 @@ const Newsletter = () => {
             <div className='bg-neutral relative'>
                 <footer className='flex flex-col items-center pt-60 mt-72 border-b-2 border-gray-800'>
                     <img src={logo} alt="" />
-                    <div className='flex flex-col md:flex-row justify-between items-start text-neutral-content py-20 w-10/12 mx-auto'>
+                    <div className='flex flex-col lg:flex-row justify-between items-start text-neutral-content py-20 w-10/12 mx-auto'>
                         <nav className='flex flex-col space-y-3'>
                             <h6 className="text-lg font-semibold">About Us</h6>
                             <p className='text-md font-light text-gray-400'>We are a passionate team dedicated to providing <br/>the best services to our customers.</p>

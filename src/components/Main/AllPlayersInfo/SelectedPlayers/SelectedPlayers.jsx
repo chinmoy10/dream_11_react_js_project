@@ -9,7 +9,7 @@ const SelectedPlayers = ({selectPlayers, handleDelete, handleIsActiveBtn}) => {
                 selectPlayers.map((player)=>(
                     
                     <div>
-                        <div className='flex border p-6 rounded-lg justify-between items-center'>
+                        <div className='flex flex-col md:flex-row gap-5 border p-6 rounded-lg justify-between md:items-center'>
                             <div className='flex items-center space-x-4'>
                                 <div>
                                 <img className='w-32 rounded-lg' src={player.player_image} alt="" />

@@ -7,7 +7,7 @@ const AllPlayersContainer = ({handleIsActiveBtn, isActive, handleChoosePlayer, s
     return (
         <div>
             <div className='w-10/12 mx-auto py-8'>
-                <div className='flex justify-between'>
+                <div className='flex flex-col md:flex-row gap-4 items-center justify-between'>
                     <div><h1 className='text-3xl font-bold'>
                         {
                             isActive.player?`Available Players`:`Selected Players(${selectedPlayers}/6)`
