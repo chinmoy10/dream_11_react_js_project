@@ -14,7 +14,7 @@ const Banner = ({handleClaimCredit}) => {
         toast.success('Thanks for credits', {
             position: "top-center",
             autoClose: 400,
-            theme: "dark",
+            theme: "colored",
             });
     }
     
@@ -36,7 +36,7 @@ const Banner = ({handleClaimCredit}) => {
                             <ToastContainer 
                             position="top-center"
                             autoClose={400}
-                            theme="dark"
+                            theme="colored"
                             />
                         </div>
                     </div>

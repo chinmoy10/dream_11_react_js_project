@@ -2,7 +2,6 @@ import React from 'react';
 import { RiDeleteBinLine } from "react-icons/ri";
 
 const SelectedPlayers = ({selectPlayers, handleDelete, handleIsActiveBtn}) => {
-    console.log(selectPlayers);
     return (
         <div>
             <div  className='w-10/12 mx-auto py-8 space-y-3'>
