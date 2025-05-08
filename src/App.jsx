@@ -30,6 +30,7 @@ function App() {
 
   const handleClaimCredit = (money) => {
     const newClaimCredit = totalMoney + money;
+    console.log(money,totalMoney)
     setTotalMoney(newClaimCredit);
   };
 

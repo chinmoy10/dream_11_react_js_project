@@ -5,7 +5,7 @@ const Newsletter = () => {
     return (
         <div>
             <div className="w-10/12 mx-auto p-5 border-2 mb-10 rounded-3xl absolute -translate-y-32 md:-translate-y-52 z-10 translate-x-11 md:translate-x-16 lg:translate-x-40">
-                <div className="hero min-h-full rounded-3xl cover bg-no-repeat bg-white"
+                <div className="hero min-h-full rounded-3xl bg-cover bg-no-repeat bg-white"
                 
                 style={{
                     backgroundImage: "url(https://i.ibb.co.com/FLMCr6Kp/bg-shadow.png)",
